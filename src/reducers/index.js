@@ -17,7 +17,7 @@ const counterReducer = (state = initialState, action) => {
       });
     case SET_DIFF:
       return Object.assign({}, state, {
-        diff: action.diff
+        diff: parseInt(action.diff)
       });
     default:
       return state;
