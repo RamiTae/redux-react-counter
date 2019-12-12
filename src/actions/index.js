@@ -16,9 +16,9 @@ export function decrement() {
   };
 }
 
-export function setDiff(diffValud) {
+export function setDiff(diffValue) {
   return {
     type: SET_DIFF,
-    diff: diffValud
+    diff: diffValue
   };
 }
