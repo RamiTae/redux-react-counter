@@ -1,0 +1,16 @@
+.TodoList {
+  padding: 0;
+}
+
+.Todo {
+  list-style: none;
+  margin: 1em;
+}
+
+.Todo-contents {
+  margin-right: 2em;
+}
+
+.Todo-action {
+  margin-left: 2em;
+}
